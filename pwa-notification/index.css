@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+    background: black;
+  }
+  
+  body {
+    height: inherit;
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  .add-button {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 30px;
+  }
+  
+  .notification-button {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 20px;
+  }
+  
+  .unreg-button {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    font-size: 30px;
+  }
+  
+  @media (orientation: landscape) {
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+  "background_color": "black",
+  "description": "Web Push Notifications example",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icon/push.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ],
+  "name": "Awesome Push Notification",
+  "short_name": "APN",
+  "start_url": "."
+}
